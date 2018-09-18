@@ -62,4 +62,23 @@ body {
     #showcase h1 {
       font-size: 4rem; }
   .mb-resp {
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+  #toTop {
+    visibility: hidden; } }
+
+#toTop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+  background: #3292a6;
+  padding: 8px 15px;
+  cursor: pointer;
+  display: block;
+  z-index: 9999; }
+  #toTop:hover {
+    background: #fff;
+    color: #000; }
