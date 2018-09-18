@@ -1,0 +1,10 @@
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.8;
+    background: #fff;
+    .nav-item{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}

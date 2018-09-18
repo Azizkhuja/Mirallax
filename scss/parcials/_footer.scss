@@ -1,0 +1,11 @@
+#contact{
+    input[type=submit]{
+        background: $primary;
+        &:hover{
+            background: darken($primary, 15%);
+        }
+    }
+}
+#main-footer{
+    background: $primary;
+}
